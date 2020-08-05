@@ -236,6 +236,7 @@ box-shadow: 1px 4px 3px -2px #DDDDDD;
 -moz-box-shadow: 1px 4px 3px -2px #DDDDDD;
 -o-box-shadow: 1px 4px 3px -2px #DDDDDD;}
 .single_sidebar .popular_post ul li a:hover{background:#0E3A6B;
+color: white !important;
 -webkit-transition: background 300ms ease-in;
 -moz-transition: background 300ms ease-in;
 -ms-transition: background 300ms ease-in;
