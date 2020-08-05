@@ -244,25 +244,28 @@ color: white !important;
 transition: background 300ms ease-in;}
 
 /*Category*/
-.single_sidebar .cat-item {background: none repeat scroll 0 0 #454545;
+.single_sidebar .cat-item {
 color: #0E3A6B;
 font-weight: bold;
 margin-bottom: 5px;
 padding: 5px;
 text-align: right;}
-.single_sidebar .cat-item a{color: #ddd;
+.single_sidebar .cat-item a{
 display: inline-block;
 font-weight: normal;
 width: 80%;
 text-align: left;
 float: left;}
 .single_sidebar .cat-item a:hover{color:#000;text-decoration:none;}
-.single_sidebar .cat-item:hover{color:#000;background:#0E3A6B;
+.single_sidebar .cat-item:hover{background:#0E3A6B;
 -webkit-transition: background 300ms ease-in;
 -moz-transition: background 300ms ease-in;
 -ms-transition: background 300ms ease-in;
 -o-transition: background 300ms ease-in;
 transition: background 300ms ease-in;}
+.single_sidebar .cat-item:hover a{
+	color: white !important;
+}
 
 /*default sidebar list item*/
 .single_sidebar > ul{}
